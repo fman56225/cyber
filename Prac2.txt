@@ -1,0 +1,10 @@
+Aim: Use of open-source intelligence and passive reconnaissanc
+
+launch kali linux
+select application>information gathering> nmap
+nmap -sP 192.198.5.0/24
+nmap -sS 192.198.5.0/24
+nmap -sSV -O 192.198.5.0/24
+nmap -sSV -O 192.198.5.0/24 -oN Enumeration.txt
+open the Enumeration.txt file saved in the system
+cat Enumeration.txt
