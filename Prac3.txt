@@ -1,0 +1,13 @@
+Aim:Vulnerability Analysis using Nikto
+
+Log in to kali Linux and open Terminal
+
+nikto -h http://testphp.vulnweb.com/listproducts.php?cat=1
+
+Note a vulnerability number, for example 23654, and open a web browser
+
+Type the URL https://cve.mitre.org/ in the browser to open the common Vulnerabilities 
+and Exposures websites
+
+ Click on Search CVE List and type your vulnerability number in the text box, as shown in 
+figure and press enter.
