@@ -1,4 +1,4 @@
-Aim: Use of open-source intelligence and passive reconnaissanc
+Aim: Service Enumeration using Nmap on Target Machine
 
 launch kali linux
 select application>information gathering> nmap
