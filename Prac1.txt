@@ -1,0 +1,69 @@
+recon-ng
+marketplace install discovery
+marketplace install recon
+marketplace install import
+marketplace install exploitation
+marketplace install reporting
+
+workspaces list
+workspaces create security_breaches
+workspaces list
+marketplace install recon/domains-contacts/whois_pocs
+modules load recon/domains-contacts/whois_pocs
+options list
+options set SOURCE facebook.com
+options list
+run
+back
+marketplace install recon/profiles-profiles/namechk
+modules load recon/profiles-profiles/namechk
+options list
+options set SOURCE Brandon Stout
+options list
+run
+back
+marketplace
+marketplace install recon/profiles-profiles/profiler
+modules load recon/profiles-profiles/profiler
+options list
+options set SOURCE Brandon Stout
+options list
+run
+back
+marketplace install reporting/html
+modules load reporting/html
+options list
+
+options set CREATOR bhakti-dhara
+options set CUSTOMER Brandon Stout
+options set FILENAME /home/kali/brandon_stout.html
+options list
+run
+exit
+pwd
+ll brandon_stout.html
+go to loaction and double click on the file
+
+
+
+command line utilities
+
+open window cmd 
+ping -h
+ping 192.229.179.87
+ping www.w3schools.com
+ping www.w3schools.com -f -l 1452
+ping www.w3schools.com -i l
+ping www.w3schools.com -i l -n l
+ping www.w3schools.com -i l5 -n l
+tracert
+tracert www.w3schools.com
+nslookup
+
+set type=a
+www.upgcm.ac.in
+
+set type=cname
+www.upgcm.ac.in
+
+
