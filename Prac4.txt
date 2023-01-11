@@ -1,0 +1,44 @@
+Aim: Practical on use of Social Engineering Toolkit.
+
+ 
+Log in to Kali Linux as a Virtual Machine.
+
+Go to Applications > Exploitation Tools > SET Social Engineering Tool
+
+Type '1' to choose the Social Engineering Attacks
+
+Type '2' to choose the Website attack vectors
+
+type '3' to choose the credential harvester attack methods
+
+Type '2' to choose Site Cloner
+
+Now it will prompt for IP address for the PostBack in Harvester/Tabnabbing,
+Type the IP address of kali Linux of VM. here, we have used 192.xx.xx.xx as the IP 
+address
+
+
+IP address for the POST back in Harvester/Tabnabbing:192.198.5.0
+
+Enter the url to clone:www.facebook.com
+
+Launch a web browser in Kali Linux and open an email services
+
+Compose an email and provide the target users email id in the to textbox
+
+Click on the link icon
+
+Type a text in the Text to display textbox.
+
+Click on the radio button Web address
+
+Type the fake URL https://facebook.com/ in the Web address text box
+
+Click on OK
+
+Click on send
+
+Now when the target user will open his email, he will find the link
+
+When the target user will click on the link, he/she will be presented with a replica of 
+Facebook.com
