@@ -53,9 +53,9 @@ ping -h
 ping 192.229.179.87
 ping www.w3schools.com
 ping www.w3schools.com -f -l 1452
-ping www.w3schools.com -i l
-ping www.w3schools.com -i l -n l
-ping www.w3schools.com -i l5 -n l
+ping www.w3schools.com -i 1
+ping www.w3schools.com -i l -n 1
+ping www.w3schools.com -i 15 -n 1
 tracert
 tracert www.w3schools.com
 nslookup
