@@ -22,7 +22,7 @@ IP address for the POST back in Harvester/Tabnabbing:192.198.5.0
 
 Enter the url to clone:www.facebook.com
 
-Launch a web browser in Kali Linux and open an email services
+Launch a web browser in Kali Linux and open an email services(gmail)
 
 Compose an email and provide the target users email id in the to textbox
 
