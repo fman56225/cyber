@@ -2,6 +2,8 @@ Aim:Vulnerability Analysis using Nikto
 
 Log in to kali Linux and open Terminal
 
+sudo su
+
 nikto -h http://testphp.vulnweb.com/listproducts.php?cat=1
 
 Note a vulnerability number, for example 23654, and open a web browser
