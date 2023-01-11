@@ -1,3 +1,5 @@
+Aim: Use of open-source intelligence and passive reconnaissance
+
 recon-ng
 marketplace install discovery
 marketplace install recon
