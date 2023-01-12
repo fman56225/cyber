@@ -1,0 +1,18 @@
+Aim:  Practical on Exploiting Web-based applications
+
+Implementation:
+1. Login to kali Linux machine
+2. Go to Application -> Kali linux -> Web Application -> Web Crawlers -> dirbuster to 
+launch DirBuster
+3.Type the URL of the website you want to scan in the Target URL text field and the port 
+number
+http://testphp.vulnweb.com:80/
+4.Click on list info to open a wordlist to be used to find the directories and files
+5. Select a list you want to use and click on Browser to open that list
+/usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
+6.It will open a please select the directories/file list you wish to use window
+7.Browse where your file is saved and select the list by clicking on select list
+8.Click on the start button, when you click on start, DirBuster starts generating GET requests 
+and sending them to the selected URL with a request for each of the files and directories 
+listed in the wordlist
+9.After running DirBUster fro some time, you will see the results in Tree View.
